@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_caesar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:title="@string/base64Activity_title"
+        app:theme="@style/ToolBarStyle"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@color/colorHintergrund"
+        android:layout_below="@id/toolbar_caesar"
+    android:fillViewport="false">
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/allActivitys_eingabe_ueberschrift"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edittext_eingabe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.06"
+
+            android:maxLines="30"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:text="offset:"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar5"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="100"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.06"
+            android:text="Characters to encrypt:"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioButton_asci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_weight="0.06"
+            android:buttonTint="@color/colorTextfarbe"
+            android:checked="true"
+            android:text="all ASCI-Chars"
+            android:textColor="@color/colorTextfarbe" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioButton_nurklein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:buttonTint="@color/colorTextfarbe"
+            android:layout_weight="0.06"
+            android:text="only lovercase"
+            android:textColor="@color/colorTextfarbe" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioButton_nurgross"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10px"
+            android:layout_weight="0.06"
+            android:buttonTint="@color/colorTextfarbe"
+            android:text="only uppercase"
+            android:textColor="@color/colorTextfarbe" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.06"
+            android:background="@color/colorButtonfarbe"
+            android:text="@string/allActivitys_btn_verschluesseln"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.06"
+            android:background="@color/colorButtonfarbe"
+            android:text="@string/allActivitys_btn_entschluesseln"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/allActivitys_ausgabe_ueberschrift"
+            android:textColor="@color/colorTextfarbe"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/textView_ausgabe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:maxLines="30"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+    </RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorHintergrund">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextfarbe"
+        android:text="Choose an option" />
+
+    <TextView
+        android:id="@+id/textView_duration_veryshort_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="very short" />
+
+
+    <TextView
+        android:id="@+id/textView_duration_short_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="short" />
+
+    <TextView
+        android:id="@+id/textView_duration_normal_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="normal" />
+
+
+    <TextView
+        android:id="@+id/textView_duration_long_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="long" />
+
+    <TextView
+        android:id="@+id/textView_duration_verylong_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="very long" />
+
+    <TextView
+        android:id="@+id/textView_duration_extremelong_einstellungen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextfarbe"
+        android:text="extreme long" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,297 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorHintergrund"
+    android:layout_below="@id/toolbar"
+    android:fillViewport="false"
+    android:id="@+id/scrollView2"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview1"
+            card_view:cardCornerRadius="5dp"
+            android:background="@color/colorButtonfarbe"
+            android:layout_marginTop="0dp"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                <TextView
+                    android:id="@+id/c1tw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card1_title"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/c1tw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card1_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview2"
+            card_view:cardCornerRadius="5dp"
+            android:background="@color/colorButtonfarbe"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                <TextView
+                    android:id="@+id/c2tw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card2_title"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/c2tw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card2_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview3"
+            card_view:cardCornerRadius="5dp"
+            android:background="@color/colorButtonfarbe"
+            android:layout_marginTop="20dp"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                <TextView
+                    android:id="@+id/c3tw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card3_title"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/c3tw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card3_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview4"
+            card_view:cardCornerRadius="5dp"
+            android:background="@color/colorButtonfarbe"
+            android:layout_marginTop="20dp"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                <TextView
+                    android:id="@+id/c4tw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card4_title"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/c4tw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card4_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview5"
+            card_view:cardCornerRadius="5dp"
+            android:background="@color/colorButtonfarbe"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                <TextView
+                    android:id="@+id/c5tw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card5_title"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/c5tw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mainActivity_card5_text"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@color/colorButtonfarbe"
+                    android:textColor="@color/colorTextfarbe"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>
+

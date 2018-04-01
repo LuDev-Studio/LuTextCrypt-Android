@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_vigenere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:title="@string/base64Activity_title"
+        app:theme="@style/ToolBarStyle"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:id="@+id/scrollview3"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@color/colorHintergrund"
+        android:layout_below="@id/toolbar_vigenere"
+    android:fillViewport="false">
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorTextfarbe"
+            android:text="@string/allActivitys_eingabe_ueberschrift" />
+
+        <EditText
+            android:id="@+id/edittext_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextfarbe"
+            android:text="@string/allActivitys_schluessel_ueberschrift"
+            android:layout_margin="10dp"
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:id="@+id/Edittext_key"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorButtonfarbe"
+            android:textColor="@color/colorTextfarbe"
+            android:textAllCaps="false"
+            android:text="Generate key"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorButtonfarbe"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextfarbe"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/allActivitys_btn_verschluesseln" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@color/colorButtonfarbe"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextfarbe"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/allActivitys_btn_entschluesseln" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorTextfarbe"
+            android:text="@string/allActivitys_ausgabe_ueberschrift" />
+
+
+        <EditText
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:maxLines="30"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorButtonfarbe"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextfarbe"
+            android:text="Show ASCI-Table" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    </RelativeLayout>

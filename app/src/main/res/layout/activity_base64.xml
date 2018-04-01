@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_base64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:title="@string/base64Activity_title"
+        app:theme="@style/ToolBarStyle"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:layout_below="@id/toolbar_base64"
+        android:background="@color/colorHintergrund"
+        android:fillViewport="false"
+        >
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/allActivitys_eingabe_ueberschrift" />
+
+            <EditText
+                android:id="@+id/editText_eingabe_base64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:maxLines="20"
+                
+                />
+
+
+            <Button
+                android:id="@+id/button_vers_base64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="@string/allActivitys_btn_verschluesseln"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_ents_base64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="@string/allActivitys_btn_entschluesseln"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/allActivitys_ausgabe_ueberschrift" />
+
+
+
+
+            <EditText
+                android:id="@+id/textview_ausgabe_base64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:maxLines="30"
+                android:textSize="20dp"
+                
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

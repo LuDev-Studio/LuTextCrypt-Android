@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_rsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:title="@string/rot13Activity_tilte"
+        app:theme="@style/ToolBarStyle"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:layout_below="@id/toolbar_rsa"
+        android:background="@color/colorHintergrund"
+        android:fillViewport="false"
+        >
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/allActivitys_eingabe_ueberschrift" />
+
+            <EditText
+                android:id="@+id/editText_eingabe_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:maxLines="20"
+                
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/allActivitys_filename_ueberschrift" />
+
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/checkbox_defaultfilename_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_filename_default" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/checkbox_costumfilename_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_filename_costum" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:shrinkColumns="*">
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/editText_eingabe_pubkey_rsa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_margin="10dp"
+                        
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:inputType="textNoSuggestions"
+
+                        android:hint="publickey"/>
+
+                    <EditText
+                        android:id="@+id/editText_eingabe_prikey_rsa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_margin="10dp"
+                        
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:inputType="textNoSuggestions"
+                        android:hint="privatekey"/>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/button_verschluesseln_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="@string/allActivitys_btn_verschluesseln"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_entschluesseln_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="@string/allActivitys_btn_entschluesseln"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/allActivitys_ausgabe_ueberschrift" />
+
+
+
+
+            <EditText
+                android:id="@+id/textview_ausgabe_rsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:maxLines="30"
+                android:textSize="20dp"
+                
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

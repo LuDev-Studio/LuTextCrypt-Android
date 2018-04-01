@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHintergrund"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextfarbe"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:text="WARNING" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextfarbe"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:text="The generation of a password wich length is over 1,000,000 can make problems" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextfarbe"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="0dp"
+        android:text="Would you like to go on?" />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="#">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_dialo_ok_passwortenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="generate"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button_dialo_cancel_passwortenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="cancel"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

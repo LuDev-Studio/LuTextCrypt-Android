@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Ciphers">
+        <menu>
+            <item
+                android:id="@+id/nav_ciphers_symetric"
+                android:icon="@drawable/ic_menu_share"
+                android:title="symetric" />
+            <item
+                android:id="@+id/nav_ciphers_asymetric"
+                android:icon="@drawable/ic_menu_send"
+                android:title="asymetric" />
+        </menu>
+    </item>
+
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_tools_keygenerators"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Generate Keys" />
+            <item
+                android:id="@+id/nav_baseencoding"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Base coding" />
+        </menu>
+    </item>
+
+
+
+</menu>

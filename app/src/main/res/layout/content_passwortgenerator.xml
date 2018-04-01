@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_passwortgenerator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:title="@string/base64Activity_title"
+        app:theme="@style/ToolBarStyle"
+        android:background="?attr/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:background="@color/colorHintergrund"
+        android:layout_below="@id/toolbar_textinasci"
+        android:fillViewport="false">
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/allActivitys_generierenaus_ueberschrift" />
+
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkBox_kleinbuchstaben_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_kleinbuchstaben" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkBox_großbuchstaben_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_Großbuchstaben" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkBox_zahlen_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_zahlen" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkbox_sonderzeichen_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                app:buttonTint="@color/colorTextfarbe"
+                android:text="@string/allActivitys_Sonderzeichen" />
+
+            <EditText
+                android:id="@+id/editText_eingabe_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorTextfarbe"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button_umwandeln_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.06"
+                android:background="@color/colorButtonfarbe"
+                android:text="Umwandeln"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorTextfarbe"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextfarbe"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/allActivitys_ausgabe_ueberschrift" />
+
+
+
+
+            <TextView
+                android:id="@+id/textview_ausgabe_passwortgenerator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:maxLines="30"
+                android:textSize="20dp"
+                android:background="@color/colorTextfarbe"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">LuTextCrypt</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_version">2.0</string>
+
+
+    // Titel der Activities
+    <string name="rot13Activity_tilte">Rot13-Verschlüsselung</string>
+    <string name="caesarActivity_title">Cäsar-Verschlüsselung</string>9
+    <string name="vigenereActivity_title">Vigenere-Verschlüsselung</string>
+    <string name="textinasciActivity_title">Text in Asci</string>
+    <string name="base64Activity_title">Base64-Verschlüsselung</string>
+    <string name="passwortgenerator_activity_title">Passwortgenerator</string>
+
+
+    // Hilfemenü in der Main
+    <string name="mainActivity_menu_help_ueberschrift">Short description</string>
+    <string name="mainActivity_menu_help_schritt1_ueberschrift">Step 1:</string>
+    <string name="mainActivity_menu_help_schritt1_text">Type or paste text to the feald with the headline "input".</string>
+    <string name="mainActivity_menu_help_schritt2_ueberschrift">Step 2:</string>
+    <string name="mainActivity_menu_help_schritt2_text">Depending on wich option you selected, put in the required parameters e.g. a key or offset.</string>
+    <string name="mainActivity_menu_help_schritt3_ueberschrift">Step 3:</string>
+    <string name="mainActivity_menu_help_schritt3_text">Press the encrypt or decrypt button below a enjoy the result</string>
+    <string name="mainActivity_menu_help_fertig">YOU`VE MADE IT :)</string>
+
+    // Karten der Main
+    <string name="mainActivity_card1_title">Rot13-Cipher</string>
+    <string name="mainActivity_card1_text">Rot13 is a special kind of Caesar-Cipher. Each Character will be shifted about 13 dights on the ASCII-Table. (very unsecure)</string>
+    <string name="mainActivity_card2_title">Caesar-Cipher</string>
+    <string name="mainActivity_card2_text">All Characters will be shifted about the same count of dights in the ASCII-Table you choosed before. (very unsecure)</string>
+    <string name="mainActivity_card3_title">Vigenere-Cipher</string>
+    <string name="mainActivity_card3_text">Vigener is an upgraee to Caesar. Each Character will be shifted about the count of dights, that the key letter on same places has number on the ASCII-Table. (unsecure)</string>
+    <string name="mainActivity_card4_title">Affine-Cipher</string>
+    <string name="mainActivity_card4_text">Each Character will be converted to numbers, than multipled with value A, an addes to value B. In the End it will be converted back to Character. (not very secure)</string>
+    <string name="mainActivity_dialog_funktionen_title">Feature not available!</string>
+    <string name="mainActivity_dialog_funktionen_text">This Feature is not availaable right now. I am very sorry for that.</string>
+    <string name="mainActivity_card5_title">Atbash-Cipher</string>
+    <string name="mainActivity_card5_text">Each Letter will be converted into one, wich is so far from the border of alphabet like the original. A goes to Z, B to Y and so on. (very unsecure)</string>
+    <string name="mainActivity_card6_title">RSA-Cipher</string>
+    <string name="mainActivity_card6_text">RSA is an asymetric cipher wich uses public key (public for all) to encrypt and private key (only yours) to decrypt. (very secure)</string>
+
+
+    <string name="mainActivity_card1_2_title">Text to ASCII</string>
+    <string name="mainActivity_card1_2_text">Each Character will be converted to its value on ASCII Table.</string>
+    <string name="mainActivity_card2_2_title">Base64-Encoding</string>
+    <string name="mainActivity_card2_2_text">Encode and decode data with Base64.</string>
+    <string name="mainActivity_card3_2_title">Passwordgenerator</string>
+    <string name="mainActivity_card3_2_text">Generate a random password from Uppercase, Lowercase numbers and more.</string>
+    <string name="main_cardRsaKeyGenerator_title">Generate RSA Keypair</string>
+    <string name="main_cardRsaKeyGenerator_text">Generate random public- and privatekey witch are needed to use the RSA-Cipher.</string>
+    <string name="mainActivity_card5_2_title">Base32-Encoding</string>
+    <string name="mainActivity_card5_2_text">Encode and decode data with Base32.</string>
+
+    <string name="main_cardAes_title">AES-Cipher</string>
+    <string name="main_cardAes_text">The Advanced Encrypted Standard is a symetric block cipher witch is used e.g. from the U.S. government.</string>
+    <string name="main_cardAesKeyGenerator_title">Generate AES Key</string>
+    <string name="main_cardAesKeyGenerator_text">Generate random AES Key witch is needed to unse the AES-Cipher</string>
+    <string name="main_cardDesKeyGenerator_title">Generate DES Key</string>
+    <string name="main_cardDesKeyGenerator_text">Generate random DES Key witch is needed to use the DES-Cipher</string>
+ö
+
+
+
+
+
+    // Beschriftungen der Elemente
+    <string name="allActivitys_eingabe_ueberschrift">Input:</string>
+    <string name="allActivitys_ausgabe_ueberschrift">Output:</string>
+    <string name="allActivitys_schluessel_ueberschrift">Key:</string>
+    <string name="allActivitys_btn_generieren">generare random key</string>
+    <string name="allActivitys_btn_verschluesseln">Encrypt</string>
+    <string name="allActivitys_btn_entschluesseln">Decrypt</string>
+    <string name="allActivitys_btn_umwandeln">Convert</string>
+    <string name="allActivitys_generierenaus_ueberschrift">generate from:</string>
+    <string name="allActivitys_kleinbuchstaben">Lowercase</string>
+    <string name="allActivitys_Großbuchstaben">Uppercase</string>
+    <string name="allActivitys_zahlen">Numbers</string>
+    <string name="allActivitys_Sonderzeichen">Other Chars</string>
+    <string name="allActivitys_anzahlstellen_ueberschrift">Lengh:</string>
+    <string name="allActivitys_btn_passwortt_generieren">Generate password</string>
+    <string name="allActivitys_wertA_ueberschrift">Value A:</string>
+    <string name="allActivitys_wertB_ueberschrift">Value B:</string>
+    <string name="allActivitys_keylaenge_ueberschrift">Lenght of keys:</string>
+    <string name="allActivitys_keylaenge_ueberschrift_single">Lenght of key:</string>
+    <string name="allActivitys_filename_ueberschrift">Filename:</string>
+    <string name="allActivitys_filename_default">default</string>
+    <string name="allActivitys_filename_costum">costum</string>
+    <string name="allActivitys_btn_generatekey">Generate KeyPair</string>
+    <string name="allActivitys_btn_generatekey_single">Generate Key</string>
+
+
+    // Keylengthes
+    <string name="keylength_128bit">128 Bits</string>
+
+
+    // AllActivitesMenu Toasts
+    <string name="allactivities_menu_item_clear">Text deleted</string>
+    <string name="allactivities_menu_item_copy">Text copied</string>
+    <string name="allactivities_menu_item_paste">Text pasted</string>
+
+
+    //NavigationDrawer
+    <string-array name="nav_drawer_items">
+               
+        <item>Startseite</item>
+               
+        <item>Rot13</item>
+               
+        <item>Cäsar</item>
+               
+        <item>Vigenere</item>
+               
+        <item>Affine</item>
+               
+        <item>Einstellungen</item>
+           
+    </string-array>
+
+
+    // irgeindein Kram
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_passwortgenerator">PasswortgeneratorActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

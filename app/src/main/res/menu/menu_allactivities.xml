@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:icon="@drawable/ic_content_copy_white"
+        android:id="@+id/allactivities_menu_item_copy"
+        app:showAsAction="always"
+           />
+
+
+    <item android:icon="@drawable/ic_content_paste_white"
+        android:id="@+id/allactivities_menu_item_paste"
+        app:showAsAction="always"
+        />
+
+
+    <item android:icon="@android:drawable/ic_menu_delete"
+        android:id="@+id/allactivities_menu_item_clear"
+        app:showAsAction="always"
+        />
+
+
+
+    <item android:icon="@android:drawable/ic_menu_share"
+        android:id="@+id/allactivities_menu_item_share"
+        app:showAsAction="always"
+        />
+
+
+</menu>

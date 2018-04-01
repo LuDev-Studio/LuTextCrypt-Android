@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lutextcrypt.java.luca.com.lutextcrypt">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.CaesarActivity"
+            android:label="Caesar-Cipher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.VigenereActivity"
+            android:label="Vigenere-Cipher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.Rot13Activity"
+            android:label="Rot13-Cipher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.TextInAsciActivity"
+            android:label="Text to ASCI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.Base64Activity"
+            android:label="Base64-Encoding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.EinstellungenActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.PasswortgeneratorActivity"
+            android:label="Passwordgenerator"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.AffineActivity"
+            android:label="Affine-Cipher"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.RsakeygeneratorActivity"
+            android:label="Generate RSA Keypair"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.AtbashActivity"
+            android:label="Atbash-Cipher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.RsaActivity"
+            android:label="RSA-Cipher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.Base32Activity"
+            android:label="Base32-Encoding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.AeskeyGeneratorActivity"
+            android:label="Generate AES key"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ludevstudio.android.lutextcrypt.AesActivity"
+            android:label="AES-Cipher"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.ludevstudio.android.lutextcrypt.DesKeyGeneratorActivity"></activity>
+    </application>
+
+</manifest>

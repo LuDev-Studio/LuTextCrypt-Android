@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/white"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Ciphers"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_ciphers_primitive"
+                android:icon="@drawable/white"
+                android:iconTint="@null"
+                android:title="Primitive Ciphers" />
+            <item
+                android:id="@+id/nav_ciphers_symetric"
+                android:icon="@drawable/white"
+                android:iconTint="@null"
+                android:title="Symetric Ciphers" />
+            <item
+                android:id="@+id/nav_ciphers_asymetric"
+
+                android:title="Asymetric Ciphers" />
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_tools_generate_cipher_keys"
+                android:icon="@drawable/white"
+                android:title="Generate Cipher Keys" />
+            <item
+                android:id="@+id/nav_tools_encoding"
+                android:icon="@drawable/white"
+                android:title="Encoding Tools" />
+
+            <item
+                android:id="@+id/nav_tools_other"
+                android:icon="@drawable/white"
+                android:title="Other Tools" />
+        </menu>
+    </item>
+
+
+
+</menu>
+
